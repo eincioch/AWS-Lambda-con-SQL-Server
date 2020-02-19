@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29806.167
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01 Presentacion", "01 Presentacion", "{6B6314BB-AC29-4ED1-8153-4A890F7EB669}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AWSServerless.EVSoft.WebApi", "AWSServerless.EVSoft.WebApi\AWSServerless.EVSoft.WebApi.csproj", "{850FD257-B8FD-42AD-8392-A1B846DF9D07}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02 Dominio", "02 Dominio", "{F2875D13-0FE3-4102-846B-7EA0AC5C0828}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AWS.EVSoft.Dominio", "AWS.EVSoft.Dominio\AWS.EVSoft.Dominio.csproj", "{71ACA8CD-481F-49EB-AE40-060FC2807207}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{850FD257-B8FD-42AD-8392-A1B846DF9D07}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{850FD257-B8FD-42AD-8392-A1B846DF9D07}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{850FD257-B8FD-42AD-8392-A1B846DF9D07}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{850FD257-B8FD-42AD-8392-A1B846DF9D07}.Release|Any CPU.Build.0 = Release|Any CPU
+		{71ACA8CD-481F-49EB-AE40-060FC2807207}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{71ACA8CD-481F-49EB-AE40-060FC2807207}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{71ACA8CD-481F-49EB-AE40-060FC2807207}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{71ACA8CD-481F-49EB-AE40-060FC2807207}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{850FD257-B8FD-42AD-8392-A1B846DF9D07} = {6B6314BB-AC29-4ED1-8153-4A890F7EB669}
+		{71ACA8CD-481F-49EB-AE40-060FC2807207} = {F2875D13-0FE3-4102-846B-7EA0AC5C0828}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {375559DA-167C-4E22-8EC4-400E78FE634D}
+	EndGlobalSection
+EndGlobal
